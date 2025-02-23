@@ -34,3 +34,6 @@ BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
 
 # Inherit from the proprietary version
 #include vendor/xiaomi/alioth/BoardConfigVendor.mk
+
+# Torch# Torch
+PB_TORCH_PATH := "/sys/devices/platform/flashlights_ocp8132/torch_brightness"
